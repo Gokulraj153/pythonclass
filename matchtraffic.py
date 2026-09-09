@@ -1,3 +1,4 @@
+
 signal = input("Enter the signal:")
 
 match(signal):
@@ -7,3 +8,4 @@ match(signal):
         print("Slow down the Vehicle")
     case "Green" | "green":
         print("You can Go")
+

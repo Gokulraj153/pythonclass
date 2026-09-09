@@ -1,3 +1,4 @@
+
 age = int(input("Enter your age: "))
 
 match(age):
@@ -11,3 +12,7 @@ match(age):
     case n if n >=60:
         print("It's a Senior")
     
+
+
+    
+
