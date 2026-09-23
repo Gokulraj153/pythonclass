@@ -1,0 +1,11 @@
+number = [1,2,4,5]
+
+n = len(number) + 1
+
+expected_sum  = n * (n + 1)//2
+
+actual_sum = sum(number)
+
+missing = expected_sum - actual_sum
+
+print(missing)
