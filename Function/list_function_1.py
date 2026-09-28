@@ -5,6 +5,6 @@ def printnum(num):
     for i in num:
         if i%2 == 0:
             sum += i
-    print("Sum of even value:",sum)
+    return sum
 
-printnum(myList) 
+print(printnum(myList)) 
